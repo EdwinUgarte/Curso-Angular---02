@@ -1,0 +1,17 @@
+<div class="resultados" #result>
+  <div
+    *ngFor="let item of resultados"
+    class="contenedor animate__animated animate__fadeIn animate-faster"
+  >
+    <div>
+      <div>
+        <a href="{{ item.url }}" target="_blank" class="link animate__tada">
+          <img src="{{ item.images.downsized.url }}" alt="gif" />
+          <div class="title-card">
+            <p class="card-text">{{ item.title }}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

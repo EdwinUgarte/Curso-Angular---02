@@ -1,0 +1,38 @@
+
+.resultados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.title-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+    }
+
+
+.link{
+    text-decoration: none;
+    color: black;
+}
